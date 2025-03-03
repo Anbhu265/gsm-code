@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "INDUSTRIAL_AUTO.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\INDUSTRIAL_AUTO.map" -o INDUSTRIAL_AUTO.axf
